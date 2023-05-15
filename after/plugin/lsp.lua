@@ -4,7 +4,19 @@ lsp.on_attach(function(client, bufnr)
   lsp.default_keymaps({buffer = bufnr})
 end)
 
+lsp.ensure_installed({
+    'clangd',
+    'pyright',
+    'lua_ls'
+})
+
+lspcfg = require('lspconfig')
+
 -- (Optional) Configure lua language server for neovim
-require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
+lspcfg.lua_ls.setup(lsp.nvim_lua_ls())
+
+lspcfg.clangd.setup({
+    cmd = {'clangd', '--query-driver=C:\\mingw64\\bin\\gcc.exe'}
+})
 
 lsp.setup()
