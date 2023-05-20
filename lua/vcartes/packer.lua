@@ -7,9 +7,11 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
-    use { "morhetz/gruvbox" }
+    use 'drewtempelmeyer/palenight.vim'
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+
+    use 'vim-airline/vim-airline'
 
     use {
         'VonHeikemen/lsp-zero.nvim',

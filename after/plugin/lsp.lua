@@ -7,10 +7,11 @@ end)
 lsp.ensure_installed({
     'clangd',
     'pyright',
-    'lua_ls'
+    'lua_ls',
+    'texlab'
 })
 
-lspcfg = require('lspconfig')
+local lspcfg = require('lspconfig')
 
 -- (Optional) Configure lua language server for neovim
 lspcfg.lua_ls.setup(lsp.nvim_lua_ls())

@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Vice\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  gruvbox = {
-    loaded = true,
-    path = "C:\\Users\\Vice\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
-  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Vice\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
@@ -123,6 +118,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Vice\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["palenight.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Vice\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\palenight.vim",
+    url = "https://github.com/drewtempelmeyer/palenight.vim"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "C:\\Users\\Vice\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
   }
 }
 
