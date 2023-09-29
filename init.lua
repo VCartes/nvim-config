@@ -14,3 +14,5 @@ vim.o.expandtab = 4
 vim.o.smartindent = true
 
 vim.o.scrolloff = 8
+vim.o.splitbelow = true
+vim.o.splitright = true
