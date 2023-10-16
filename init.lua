@@ -1,6 +1,6 @@
 require("vcartes")
 
-vim.cmd('colorscheme palenight')
+vim.cmd.colorscheme "catppuccin"
 vim.cmd('language en_US')
 
 vim.o.number = true
