@@ -1,6 +1,7 @@
 require("vcartes")
 
 vim.cmd.colorscheme "catppuccin"
+vim.g.airline_theme = "catppuccin"
 vim.cmd('language en_US')
 
 vim.o.number = true
