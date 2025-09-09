@@ -17,7 +17,7 @@ local lspcfg = require('lspconfig')
 lspcfg.lua_ls.setup(lsp.nvim_lua_ls())
 
 lspcfg.clangd.setup({
-    cmd = {'clangd', '--query-driver=C:\\mingw64\\bin\\gcc.exe'}
+    cmd = {'clangd', '--query-driver=C:\\w64devkit\\bin\\gcc.exe'}
 })
 
 lsp.setup()
