@@ -1,6 +1,9 @@
+local util = require("vcartes.util")
+
+
 local latexModule = {}
 
-latexModule.compiler = "pdflatex"
+latexModule.compiler = util.latexcompiler
 
 latexModule.pdf = function()
     local filePath = vim.api.nvim_buf_get_name(0)

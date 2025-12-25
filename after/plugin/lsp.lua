@@ -1,4 +1,5 @@
 local lsp = require('lsp-zero').preset({})
+local util = require("vcartes.util")
 
 lsp.on_attach(function(client, bufnr)
     lsp.default_keymaps({buffer = bufnr})
@@ -17,7 +18,7 @@ local lspcfg = require('lspconfig')
 lspcfg.lua_ls.setup(lsp.nvim_lua_ls())
 
 lspcfg.clangd.setup({
-    cmd = {'clangd', '--query-driver=C:\\w64devkit\\bin\\gcc.exe'}
+    cmd = {'clangd', util.clangquerrydriver}
 })
 
 lsp.setup()

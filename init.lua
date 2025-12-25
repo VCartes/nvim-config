@@ -1,4 +1,5 @@
 require("vcartes")
+-- require("local.localoverrides")
 
 vim.cmd.colorscheme "catppuccin"
 vim.g.airline_theme = "catppuccin"
